@@ -1,6 +1,4 @@
 defmodule Opal.CLI do
-  alias Opal
-
   @cli_options %{
     "SET" => "set values using: \"SET <key> <value>\".",
     "GET" => "retrieve values using: \"GET <key>\".",
